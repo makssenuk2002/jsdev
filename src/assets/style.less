@@ -1,0 +1,50 @@
+:root {
+  --main-color: rgba(212, 178, 84, 1);
+  --main-hover-color: #C8A74B;
+  --secondary-color: #FFFFFF;
+  --gray-color: #777777;
+  --font-roboto: Roboto-Regular;
+  --font-helvetica: Helvetica-Bold
+}
+
+body {
+  margin: 0;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.swiper-pagination-bullet-active {
+  width: 50px;
+  height: 5px;
+  background: var(--main-color) 0% 0% no-repeat padding-box !important;
+  border-radius: 3px;
+  opacity: 1;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+  color: var(--main-color);
+}
+
+.swiper-pagination {
+  margin-bottom: 30px;
+}
+
+.swiper-pagination-bullet {
+  width: 50px;
+  height: 5px;
+  background: var(--secondary-color) 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  opacity: 1;
+}
